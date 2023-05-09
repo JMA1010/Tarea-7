@@ -1,0 +1,87 @@
+@media (max-width: 320px) {
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    .l1{background: red;
+        grid-column: 1;
+        grid-row: 1;}
+    .l2{background: blue;
+        grid-column: 1;
+        grid-row: 2}
+    .l3{background: green;
+        grid-column: 1;
+        grid-row: 3}
+      .column2{
+        display: none;
+      }
+      .column3{
+        display: none;  
+      }
+    }
+  
+@media (min-width: 321px) and (max-width: 768px) {
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1rem;}
+    .l1{background:green;
+        grid-column: 1;
+        grid-row: 1;}
+    .l2{background:  red;
+        grid-column: 1;
+        grid-row: 2}
+    .l3{background: blue;
+        grid-column: 1;
+        grid-row: 3}
+    .l4{background: yellow;
+        grid-column: 2;
+        grid-row: 1}
+    .l5{background: orange;
+        grid-column: 2;
+        grid-row: 2}
+    .l6{background: black;
+        grid-column: 2;
+        grid-row: 3}
+    .column3{
+        display: none;  
+        }
+  }
+@media (min-width: 769px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1rem;}
+    .l1{background: red;
+        grid-column: 1;
+        grid-row: 1;}
+    .l2{background: blue;
+        grid-column: 1;
+        grid-row: 2}
+    .l3{background: green;
+        grid-column: 1;
+        grid-row: 3}
+    .l4{background: orange;
+        grid-column: 2;
+        grid-row: 1}
+    .l5{background: black;
+        grid-column: 2;
+        grid-row: 2}
+    .l6{background: yellow;
+        grid-column: 2;
+        grid-row: 3}
+    .l7{background: brown;
+        grid-column: 3;
+        grid-row: 1}
+    .l8{background: gray;
+        grid-column: 3;
+        grid-row: 2}
+    .l9{background: violet;
+        grid-column: 3;
+        grid-row: 3}
+  }
+  
